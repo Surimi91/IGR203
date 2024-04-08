@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+header #homeButton, header #cartButton, .btn {
+    padding: 5px 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-info {
+    background-color: #3498db;
+}
+
+.btn-add {
+    background-color: #2ecc71;
+}
+
+nav #categories {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+nav #categories li {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+main .category {
+    padding: 10px;
+}
+
+main .dish {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+main .dish-img {
+    max-width: 100px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+main .dish-info {
+    display: flex;
+    align-items: center;
+}
+
+main .dish-info p {
+    margin: 0 10px;
+}
+
+
+
+
+
+#categories {
+    display: flex;
+    flex-direction: column;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.dish-img {
+    width: 100px;
+    height: auto;
+}
+
+#categories {
+    display: flex;
+    flex-direction: column;
+}
+
+.dish {
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+}
+
+
+.dish-info {
+    flex-direction:column;
+}
+
+.disabled {
+    color: grey;
+    pointer-events: none;
+}
+
+.btn-info, .btn-add {
+    margin-top: 5px;
+}
